@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: "oswald", sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(#ec7063 ,#943126);
+    color: whitesmoke;
+}
+
+header {
+    text-align: center;
+margin-bottom: 1%;
+}
+
+header img {
+    width: 50%;
+}
+img{
+    box-shadow: 3px 3px 13px 5px grey;
+}
+nav {
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    border: 4px groove whitesmoke;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #010132;
+}
+
+.my {
+    color: #100132;
+    background-color: whitesmoke;
+}
+.img2 {
+    width: 60%;
+    margin-left: 20%;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myname {
+    color: #010132;
+    font-style: italic;
+    font-weight: 900;
+}
+ .abaudno {
+    width: 45%;
+  
+}
+
+h1{
+    text-shadow: 1px 2px 13px #e74c3c;
+}
+.hist{
+    padding: 3%;
+    border: 4px double grey;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+.ganr{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.hist{
+    text-decoration: none;
+    font-size: large;
+    margin-top: 85%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    box-shadow: 4px 4px 4px 4px blue;
+}
+.videos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.video{
+    border: 3px solid black;
+    padding: 5%;
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px grey;
+    text-align: center;
+}
